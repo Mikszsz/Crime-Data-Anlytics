@@ -24,6 +24,12 @@ Dashboard Visualizations
 
 The dashboard is organized into three main report pages. Each page focuses on a distinct analytical perspective: overall crime overview, crime pattern analysis, and victim profiling. Interactive slicers are available on all pages for cross-filtering.
 
+
+
+
+
+
+
 Page 1 — Crime Overview Dashboard
 This page provides a high-level executive summary of crime activity, featuring KPI cards with sparklines, geographic and crime-type breakdowns, weapon usage analysis, and a monthly breakdown by day.
 
@@ -44,6 +50,10 @@ Slicers available on this page:
  Figure 1b: Page 1 Live Dashboard — Crime Overview (dark theme, red accents)
 
 
+
+
+
+
  
 Page 2 — Crime Trends and Status
 This page provides deeper temporal analysis and case resolution insights, including monthly trend lines, time-of-day heatmaps, premise type breakdowns, and crime status composition across years.
@@ -62,6 +72,14 @@ Figure 2a: Page 2 Wireframe — Crime Trends and Status (layout design)
 
 <img width="766" height="427" alt="1000028247" src="https://github.com/user-attachments/assets/ef7a8f80-5404-47f6-84ac-7e78d21d059c" />
 Figure 2b: Page 2 Live Dashboard — Crime Trends and Status (dark theme, red accents)
+
+
+
+
+
+
+
+
 
 Page 3 — Victim Demographics
 This page presents a full victim profile analysis, covering age distribution, gender breakdown, ethnicity/descent, and aggregate statistical summaries. It enables targeted understanding of who is most affected by crime in the dataset.
