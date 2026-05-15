@@ -44,9 +44,11 @@ Slicers available on this page:
 
 
 <img width="1024" height="697" alt="689286455_939872768885852_4142700994101863831_n" src="https://github.com/user-attachments/assets/24540a05-e5c5-4f18-9633-d71288accf45" />
+ 
  Figure 1a: Page 1 Wireframe — Crime Overview Dashboard (layout design)
 
  <img width="757" height="424" alt="1000028249" src="https://github.com/user-attachments/assets/88c04efb-28a7-4881-9a92-a4f55656d796" />
+
  Figure 1b: Page 1 Live Dashboard — Crime Overview (dark theme, red accents)
 
 
@@ -68,9 +70,11 @@ Slicers available on this page:
 <img width="593" height="185" alt="sad" src="https://github.com/user-attachments/assets/06a8de00-ee92-4e4f-b7a2-3b36b9ba4afe" />
 
 <img width="1024" height="768" alt="687962639_26948753788114338_2314805742268222346_n" src="https://github.com/user-attachments/assets/76dfc951-467c-4922-bc6a-f65f1131732c" />
+
 Figure 2a: Page 2 Wireframe — Crime Trends and Status (layout design)
 
 <img width="766" height="427" alt="1000028247" src="https://github.com/user-attachments/assets/ef7a8f80-5404-47f6-84ac-7e78d21d059c" />
+
 Figure 2b: Page 2 Live Dashboard — Crime Trends and Status (dark theme, red accents)
 
 
@@ -95,10 +99,14 @@ Slicers available on this page:
 <img width="593" height="236" alt="asdcx" src="https://github.com/user-attachments/assets/eff1d155-9eea-4a2f-a3e6-6864e4d902b2" />
 
 <img width="1134" height="684" alt="679367393_1005889141962429_1423780584507947744_n" src="https://github.com/user-attachments/assets/38cf0f52-5baf-46d7-b454-39cb5b950cfa" />
+
 Figure 3a: Page 3 Wireframe — Victim Demographics (layout design)
 
 <img width="769" height="427" alt="1000028246" src="https://github.com/user-attachments/assets/b5e64dec-a0ec-4355-a991-ef3a35b58686" />
+
 Figure 3b: Page 3 Live Dashboard — Victim Demographics (dark theme, red accents)
+
+
 
 
 Insights and Recommendations
