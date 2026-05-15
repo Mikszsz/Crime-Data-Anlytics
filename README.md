@@ -38,3 +38,26 @@ Page 3 — Victim Profile
 This page analyzes victim demographics including age, gender, and descent/ethnicity.
 
 <img width="593" height="236" alt="asdcx" src="https://github.com/user-attachments/assets/eff1d155-9eea-4a2f-a3e6-6864e4d902b2" />
+
+Slicers / Filters (All Pages)
+The following interactive slicers are available across the dashboard pages to enable dynamic cross-filtering:
+•Date Reported
+•Date Occurence
+•Area Name
+•Crime Code Desc
+•Report District No
+•Vict Sex
+
+Insights and Recommendations
+
+•High-frequency crime types identified through the Crime Rate by Area and Crime Code breakdown can help law enforcement prioritize patrol resources.
+
+•Time-of-day and day-of-month heatmaps reveal peak crime windows, enabling targeted deployment of personnel during high-risk hours.
+
+•Monthly crime trends allow year-over-year comparison to identify seasonal spikes or reductions in criminal activity.
+
+•Victim demographic analysis across gender, descent, and age can support targeted outreach programs and community engagement strategies.
+
+Conclusion
+
+The Crime Data Analytics 2020–2024 Power BI dashboard provides a comprehensive, multi-dimensional view of crime incidents in the Los Angeles area. The dataset, sourced from LAPD open data, was loaded, cleaned, and transformed to support robust time intelligence, geographic analysis, and victim profiling.
