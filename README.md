@@ -27,16 +27,16 @@ The dashboard is organized into three main report pages. Each page focuses on a 
 Page 1 — Crime Overview
 This page provides a high-level summary of crime activity across areas and time periods.
 
-<img width="1024" height="697" alt="689286455_939872768885852_4142700994101863831_n" src="https://github.com/user-attachments/assets/24540a05-e5c5-4f18-9633-d71288accf45" />
-                                Figure 1a: Page 1 Wireframe — Crime Overview Dashboard (layout design)
-
-<img width="757" height="424" alt="1000028249" src="https://github.com/user-attachments/assets/88c04efb-28a7-4881-9a92-a4f55656d796" />
-                               Figure 1b: Page 1 Live Dashboard — Crime Overview (dark theme, red accents)
- 
-
-
 <img width="587" height="308" alt="cvsd" src="https://github.com/user-attachments/assets/aaa29b85-6dcb-4574-bb7a-d9572fe894bd" />
 
+
+<img width="1024" height="697" alt="689286455_939872768885852_4142700994101863831_n" src="https://github.com/user-attachments/assets/24540a05-e5c5-4f18-9633-d71288accf45" />
+ Figure 1a: Page 1 Wireframe — Crime Overview Dashboard (layout design)
+
+ <img width="757" height="424" alt="1000028249" src="https://github.com/user-attachments/assets/88c04efb-28a7-4881-9a92-a4f55656d796" />
+ Figure 1b: Page 1 Live Dashboard — Crime Overview (dark theme, red accents)
+
+ 
 Page 2 — Crime Patterns
 This page dives deeper into temporal patterns, premises, and case resolution status.
 
