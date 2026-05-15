@@ -17,8 +17,108 @@ The following columns are used across the data model and visualizations:
 
 Data Cleaning Process
 
+Data Preprocessing ⸙
+Using the CLEAN framework (Conceptualize, Locate, Evaluate, Augment, Note)
+╰┈➤ Conceptualize the Data
+Each row in the dataset represents a unique crime incident or police report recorded from 2020 to 2024. The dataset contains information about the date and time of occurrence, location of the incident, victim demographics, crime classifications, weapon information, and reporting status used for crime analysis and public safety monitoring.
+
+╰┈➤ Locate Solvable Problems
+1. DATE RPTD — all rows have same timestamp (1,004,895 rows)
+Removed the unnecessary timestamp and kept only the date value to make the format cleaner and easier for analysis.
+2. DATE OCC — all rows have same timestamp (1,004,895 rows)
+Removed the time portion because all rows contained the same default timestamp value.
+3. TIME OCC — military time and improper format (1,004,895 rows)
+Converted the military time format into a proper readable time format for consistency and easier interpretation.
+4. Mocodes — inaccurate formatting and blanks (262,490 rows)
+Standardized the formatting of mocodes and fixed entries with incomplete formatting to improve consistency.
+5. Vict Age — negative ages (137 rows)
+Negative age values were considered invalid data entries and were changed to 0.
+6. Vict Sex — empty data, "-", H, and X values (242,499 rows)
+Replaced unclear and inconsistent values with standardized categories such as “F”, “M”, and “Unknown”.
+7. Vict Descent — empty data and "-" values (144,645 rows)
+Blank and invalid entries were replaced with “Unknown” to maintain consistency in the dataset.
+8. Premise CD — blanks (16 rows)
+Missing premise codes were replaced with 0 because the actual value could not be identified.
+9. Premis Desc — blanks and values with "*" (588 rows)
+Cleaned the formatting and replaced unclear values with “Unknown”.
+10. Weapon Used Cd — blanks (677,678 rows)
+Missing weapon codes were replaced with “Unknown” because many incidents may not have involved a weapon.
+11. Weapon Desc — blanks (677,678 rows)
+Missing weapon descriptions were replaced with “Unknown” to match the cleaned weapon code column.
+12. Status — same values as Status Desc (1,004,895 rows)
+Removed the Status column because its information already existed in the Status Desc column, making it redundant.
+13. Status Desc — “UNK” values (5 rows)
+Replaced “UNK” with “Unknown” for readability and consistency.
+14. Crm Cd 1 — blanks (11 rows)
+Missing values were replaced with 0 because no matching crime code could be identified.
+15. Crm Cd 2 — blanks (935,740 rows)
+Blank entries were changed to 0 since many incidents only had one primary crime code.
+16. Crm Cd 3 — blanks (1,002,580 rows)
+Missing values were changed to 0 because additional crime codes were not always applicable.
+17. Crm Cd 4 — blanks (1,004,830 rows)
+Blank entries were replaced with 0 for consistency in the crime code columns.
+18. LOCATION — unnecessary spaces and empty data
+Removed unnecessary spaces and replaced missing values with “Unknown”.
+19. Cross Street — unnecessary spaces and empty data
+Removed extra spaces and replaced missing values with “Unknown” for cleaner location data.
+
+╰┈➤ Evaluate Unsolvable Issues
+1. Missing weapon information
+A large number of rows had missing weapon-related data. These were retained as “Unknown” because not all crimes involve weapons, and assuming a value may lead to inaccurate analysis.
+2. Multiple blank crime code columns
+Crime code columns such as Crm Cd 2, Crm Cd 3, and Crm Cd 4 contained many blanks. These were kept as 0 because some incidents only require one official crime classification.
+
+╰┈➤ Augment the Data
+1. Created year column
+Extracted the year from DATE OCC to make yearly crime trend analysis easier.
+DATE OCC
+year
+2020-05-14
+2020
+
+2. Created month column
+Extracted the month from DATE OCC for monthly crime pattern analysis.
+DATE OCC
+month
+2020-05-14
+May
+
+3. Created day_of_week column
+Added a column showing the day of the week to analyze which days have the highest crime occurrences.
+DATE OCC
+day_of_week
+2020-05-14
+Thursday
+
+4. Created hour_occ column
+Extracted the hour from TIME OCC to analyze crime activity by hour.
+TIME OCC
+hour_occ
+18:30
+18
+
+5. Created full_location column
+Combined LOCATION and Cross Street into one column to provide more complete location details.
+LOCATION
+Cross Street
+full_location
+Main St
+5th Ave
+Main St & 5th Ave
+
+
+╰┈➤ Note and Document
+Date and time fields were standardized for consistent formatting and easier time-based analysis.
+Invalid, blank, and unclear categorical values were cleaned using standardized replacements such as “Unknown” and “0”.
+Redundant columns were removed to reduce unnecessary duplication in the dataset.
+Additional derived columns were created to improve trend analysis and visualization.
+All preprocessing steps were applied consistently across the entire dataset to maintain data quality and reliability.
+
 
 <img width="1688" height="458" alt="image" src="https://github.com/user-attachments/assets/7b84423f-4ada-468e-87ea-616f0bb4d6b2" />
+
+
+
 
 Dashboard Visualizations
 
