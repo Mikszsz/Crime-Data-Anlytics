@@ -6,6 +6,7 @@ The dataset covers crime incidents reported in the Los Angeles area from 2020 to
 
 Tables / Entities
 The data model includes the following tables:
+
 •Crime_fact — primary fact table containing all crime incident records
 •dim_weapon — dimension table mapping weapon codes to descriptions
 
